@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="top" Lut="8" T_Register="9(0)" T_Lut="10(8)">
- <SubModule name="INBUF" Register="9" Lut="2" T_Register="9(9)" T_Lut="2(2)"/>
+<Module name="top" Lut="10" T_Register="36(0)" T_Lut="18(10)">
+ <SubModule name="INBUF" Register="20" Lut="8" T_Register="20(20)" T_Lut="8(8)"/>
+ <SubModule name="REGFILE" Register="16" T_Register="16(16)"/>
 </Module>

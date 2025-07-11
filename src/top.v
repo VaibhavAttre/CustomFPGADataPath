@@ -1,19 +1,29 @@
-module top (
+module top #(
+    parameter WIDTH = 8
+)(
     input clk,
     input bit_in,
+    input choose_display,
     input rst,
     input store_now,
-    output [7:0] led
+    output [WIDTH-1:0] led
 );
 
-wire [7:0] data_in;
-wire input_ready;
-wire [7:0] current_shift;
-wire [7:0] pc;
+wire [WIDTH-1:0] data_in;
+wire [WIDTH-1:0] current_shift;
+wire [WIDTH-1:0] pc;
+wire [WIDTH-1:0] regA;
+wire [WIDTH-1:0] regB;
+
+wire input_ready;   
+wire loadA = input_ready & ~choose_display;
+wire loadB = input_ready &  choose_display;
+
+assign led = choose_display ? ~regB : ~regA;
 
 program_counter_reg # (
 
-    .WIDTH(8)
+    .WIDTH(WIDTH)
 ) PC (
     .clk(clk),
     .rst(rst),
@@ -22,7 +32,7 @@ program_counter_reg # (
 );
 
 input_buffer # (
-    .WIDTH(8)
+    .WIDTH(WIDTH)
 ) INBUF (
     
     .clk(clk),
@@ -34,8 +44,17 @@ input_buffer # (
     .current_shift(current_shift)
 );
 
+register_file # (
 
-
-assign led = ~current_shift;
+    .WIDTH(WIDTH)
+) REGFILE (
+    .clk(clk),
+    .rst(rst),
+    .loadA(loadA),
+    .loadB(loadB),
+    .data_in(data_in),
+    .A(regA),
+    .B(regB)
+);
 
 endmodule

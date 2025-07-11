@@ -4,15 +4,16 @@
     <Version>beta</Version>
     <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
     <FileList>
-        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\src\input_buffer.v" type="verilog"/>
-        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\src\top.v" type="verilog"/>
-        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\src\program_counter_reg.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\input_buffer.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\program_counter_reg.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\register_file.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>
         <Option type="global_freq" value="100.000"/>
         <Option type="looplimit" value="2000"/>
-        <Option type="output_file" value="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\impl\gwsynthesis\fpga_project.vg"/>
+        <Option type="output_file" value="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\impl\gwsynthesis\fpga_project.vg"/>
         <Option type="print_all_synthesis_warning" value="0"/>
         <Option type="ram_rw_check" value="0"/>
         <Option type="vcc" value="1.0"/>

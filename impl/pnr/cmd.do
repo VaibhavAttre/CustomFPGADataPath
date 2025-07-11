@@ -1,9 +1,9 @@
--d C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\impl\gwsynthesis\fpga_project.vg
+-d C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\impl\gwsynthesis\fpga_project.vg
 -p GW2A-18C-PBGA256-8
 -pn GW2A-LV18PG256C8/I7
--cst C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\src\fpga_project.cst
--cfg C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\impl\pnr\device.cfg
--sdc C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\src\toptime.sdc
+-cst C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst
+-cfg C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\impl\pnr\device.cfg
+-sdc C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\toptime.sdc
 -bit
 -tr
 -ph

@@ -12,6 +12,10 @@
   {
    "Path" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
    "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/register_file.v",
+   "Type" : "verilog"
   }
  ],
  "IncludePath" : [

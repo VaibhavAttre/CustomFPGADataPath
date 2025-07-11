@@ -9,7 +9,7 @@
   "SubInsts" : [
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
-    "InstLine" : 17,
+    "InstLine" : 27,
     "InstName" : "PC",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/program_counter_reg.v",
     "ModuleLine" : 1,
@@ -17,11 +17,19 @@
    },
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
-    "InstLine" : 26,
+    "InstLine" : 36,
     "InstName" : "INBUF",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/input_buffer.v",
     "ModuleLine" : 1,
     "ModuleName" : "input_buffer"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
+    "InstLine" : 50,
+    "InstName" : "REGFILE",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/register_file.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "register_file"
    }
   ]
  }

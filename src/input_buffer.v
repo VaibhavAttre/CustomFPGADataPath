@@ -26,7 +26,7 @@ always @(posedge clk) begin
         count <= 0;
         out <= {WIDTH{1'b0}};
         ready <= 1'b0;
-    end else if(store_edge) begin
+    end else if(store_edge  ) begin
         shift_reg <= {shift_reg[WIDTH-2:0], bit_in};
         if(count == MAX) begin
             out <= {shift_reg[WIDTH-2:0], bit_in};
