@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="top" Lut="10" T_Register="36(0)" T_Lut="18(10)">
- <SubModule name="INBUF" Register="20" Lut="8" T_Register="20(20)" T_Lut="8(8)"/>
+<Module name="top" Lut="11" T_Register="88(0)" T_Alu="19(0)" T_Lut="106(11)">
+ <SubModule name="interpreter" T_Register="52(0)" T_Alu="19(0)" T_Lut="88(0)">
+  <SubModule name="LFSR" Register="16" Lut="7" T_Register="16(16)" T_Lut="7(7)"/>
+  <SubModule name="Scanner" Register="36" Alu="19" Lut="77" T_Register="36(36)" T_Alu="19(19)" T_Lut="77(77)"/>
+  <SubModule name="Decoder" Lut="4" T_Lut="4(4)"/>
+ </SubModule>
+ <SubModule name="INBUF" Register="20" Lut="7" T_Register="20(20)" T_Lut="7(7)"/>
  <SubModule name="REGFILE" Register="16" T_Register="16(16)"/>
 </Module>

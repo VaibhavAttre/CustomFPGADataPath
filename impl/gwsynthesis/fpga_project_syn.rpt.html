@@ -56,9 +56,16 @@ table.detail_table td.label { min-width: 100px; width: 8%;}
 <tr>
 <td class="label">Design File</td>
 <td>C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\input_buffer.v<br>
+C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\keypad_decode.v<br>
+C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\keypad_reader.v<br>
+C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\memory_bank.v<br>
 C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\program_counter_reg.v<br>
-C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v<br>
+C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\rc_adc.v<br>
 C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\register_file.v<br>
+C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v<br>
+C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\LFSR.v<br>
+C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\pulse_counter.v<br>
+C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\keypad_interpreter.v<br>
 </td>
 </tr>
 <tr>
@@ -83,7 +90,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Fri Jul 11 16:48:28 2025
+<td>Tue Jul 29 23:21:41 2025
 </td>
 </tr>
 <tr>
@@ -99,11 +106,11 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">Synthesis Process</td>
-<td>Running parser:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0.062s, Elapsed time = 0h 0m 0.066s, Peak memory usage = 437.070MB<br/>Running netlist conversion:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 0MB<br/>Running device independent optimization:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 0: CPU time = 0h 0m 0.031s, Elapsed time = 0h 0m 0.001s, Peak memory usage = 437.070MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 1: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 437.070MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 2: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 437.070MB<br/>Running inference:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 437.070MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 1: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 437.070MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 2: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 437.070MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 3: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 437.070MB<br/>Running technical mapping:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 437.070MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 1: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 437.070MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 2: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 437.070MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 3: CPU time = 0h 0m 0.109s, Elapsed time = 0h 0m 0.122s, Peak memory usage = 437.070MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 4: CPU time = 0h 0m 0.046s, Elapsed time = 0h 0m 0.058s, Peak memory usage = 437.070MB<br/>Generate output files:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.005s, Peak memory usage = 437.070MB<br/></td>
+<td>Running parser:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0.156s, Elapsed time = 0h 0m 0.139s, Peak memory usage = 409.094MB<br/>Running netlist conversion:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 0MB<br/>Running device independent optimization:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.009s, Peak memory usage = 409.094MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 1: CPU time = 0h 0m 0.015s, Elapsed time = 0h 0m 0.002s, Peak memory usage = 409.094MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Optimizing Phase 2: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.005s, Peak memory usage = 409.094MB<br/>Running inference:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.001s, Peak memory usage = 409.094MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 1: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 409.094MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 2: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 409.094MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Inferring Phase 3: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s, Peak memory usage = 409.094MB<br/>Running technical mapping:<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 0: CPU time = 0h 0m 0.015s, Elapsed time = 0h 0m 0.006s, Peak memory usage = 409.094MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 1: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.002s, Peak memory usage = 409.094MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 2: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.001s, Peak memory usage = 409.094MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 3: CPU time = 0h 0m 0.343s, Elapsed time = 0h 0m 0.377s, Peak memory usage = 409.094MB<br/>&nbsp;&nbsp;&nbsp;&nbsp;Tech-Mapping Phase 4: CPU time = 0h 0m 0.078s, Elapsed time = 0h 0m 0.071s, Peak memory usage = 409.094MB<br/>Generate output files:<br/>&nbsp;&nbsp;&nbsp;&nbsp;CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0.01s, Peak memory usage = 409.094MB<br/></td>
 </tr>
 <tr>
 <td class="label">Total Time and Memory Usage</td>
-<td>CPU time = 0h 0m 0.248s, Elapsed time = 0h 0m 0.252s, Peak memory usage = 437.070MB</td>
+<td>CPU time = 0h 0m 0.607s, Elapsed time = 0h 0m 0.623s, Peak memory usage = 409.094MB</td>
 </tr>
 </table>
 <h1><a name="resource">Resource</a></h1>
@@ -115,23 +122,27 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label"><b>I/O Port </b></td>
-<td>13</td>
+<td>23</td>
 </tr>
 <tr>
 <td class="label"><b>I/O Buf </b></td>
-<td>13</td>
+<td>21</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspIBUF</td>
-<td>5</td>
+<td>8</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspOBUF</td>
 <td>8</td>
 </tr>
 <tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspTBUF</td>
+<td>5</td>
+</tr>
+<tr>
 <td class="label"><b>Register </b></td>
-<td>36</td>
+<td>88</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspDFF</td>
@@ -146,28 +157,52 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>32</td>
 </tr>
 <tr>
-<td class="label"><b>LUT </b></td>
-<td>17</td>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFP</td>
+<td>15</td>
 </tr>
 <tr>
-<td class="label">&nbsp&nbsp&nbsp&nbspLUT2</td>
-<td>3</td>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFPE</td>
+<td>22</td>
 </tr>
 <tr>
-<td class="label">&nbsp&nbsp&nbsp&nbspLUT3</td>
-<td>12</td>
-</tr>
-<tr>
-<td class="label">&nbsp&nbsp&nbsp&nbspLUT4</td>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFC</td>
 <td>2</td>
 </tr>
 <tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspDFFCE</td>
+<td>13</td>
+</tr>
+<tr>
+<td class="label"><b>LUT </b></td>
+<td>103</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT2</td>
+<td>11</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT3</td>
+<td>31</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspLUT4</td>
+<td>61</td>
+</tr>
+<tr>
+<td class="label"><b>ALU </b></td>
+<td>19</td>
+</tr>
+<tr>
+<td class="label">&nbsp&nbsp&nbsp&nbspALU</td>
+<td>19</td>
+</tr>
+<tr>
 <td class="label"><b>INV </b></td>
-<td>1</td>
+<td>3</td>
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp&nbsp&nbspINV</td>
-<td>1</td>
+<td>3</td>
 </tr>
 </table>
 <h2><a name="utilization">Resource Utilization Summary</a></h2>
@@ -179,12 +214,12 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">Logic</td>
-<td>18(18 LUT, 0 ALU) / 20736</td>
+<td>125(106 LUT, 19 ALU) / 20736</td>
 <td><1%</td>
 </tr>
 <tr>
 <td class="label">Register</td>
-<td>36 / 16173</td>
+<td>88 / 16173</td>
 <td><1%</td>
 </tr>
 <tr>
@@ -194,7 +229,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">&nbsp&nbsp--Register as FF</td>
-<td>36 / 16173</td>
+<td>88 / 16173</td>
 <td><1%</td>
 </tr>
 <tr>
@@ -245,8 +280,8 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>1</td>
 <td>clk</td>
 <td>100.000(MHz)</td>
-<td>378.644(MHz)</td>
-<td>3</td>
+<td>138.122(MHz)</td>
+<td>9</td>
 <td>TOP</td>
 </tr>
 </table>
@@ -256,11 +291,11 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <table class="summary_table">
 <tr>
 <td class="label">Slack</td>
-<td>7.359</td>
+<td>2.760</td>
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>2.966</td>
+<td>7.565</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
@@ -268,11 +303,11 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">From</td>
-<td>INBUF/store_d_s0</td>
+<td>interpreter/Scanner/Data_1_s0</td>
 </tr>
 <tr>
 <td class="label">To</td>
-<td>INBUF/out_7_s0</td>
+<td>interpreter/Scanner/Sum_3_s0</td>
 </tr>
 <tr>
 <td class="label">Launch Clk</td>
@@ -314,7 +349,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>0.000</td>
 <td>tINS</td>
 <td>RR</td>
-<td>36</td>
+<td>88</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
@@ -323,15 +358,15 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>RR</td>
 <td>1</td>
-<td>INBUF/store_d_s0/CLK</td>
+<td>interpreter/Scanner/Data_1_s0/CLK</td>
 </tr>
 <tr>
 <td>0.592</td>
 <td>0.232</td>
 <td>tC2Q</td>
 <td>RF</td>
-<td>4</td>
-<td>INBUF/store_d_s0/Q</td>
+<td>6</td>
+<td>interpreter/Scanner/Data_1_s0/Q</td>
 </tr>
 <tr>
 <td>1.066</td>
@@ -339,39 +374,135 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>INBUF/store_edge_s1/I0</td>
+<td>interpreter/Scanner/n152_s5/I1</td>
 </tr>
 <tr>
-<td>1.583</td>
+<td>1.621</td>
+<td>0.555</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n152_s5/F</td>
+</tr>
+<tr>
+<td>2.095</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s56/I0</td>
+</tr>
+<tr>
+<td>2.612</td>
 <td>0.517</td>
 <td>tINS</td>
 <td>FF</td>
-<td>9</td>
-<td>INBUF/store_edge_s1/F</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s56/SUM</td>
 </tr>
 <tr>
-<td>2.057</td>
+<td>3.086</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s16/I0</td>
+</tr>
+<tr>
+<td>3.635</td>
+<td>0.549</td>
+<td>tINS</td>
+<td>FR</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s16/COUT</td>
+</tr>
+<tr>
+<td>3.635</td>
+<td>0.000</td>
+<td>tNET</td>
+<td>RR</td>
+<td>2</td>
+<td>interpreter/Scanner/n223_s5/CIN</td>
+</tr>
+<tr>
+<td>4.105</td>
+<td>0.470</td>
+<td>tINS</td>
+<td>RF</td>
+<td>1</td>
+<td>interpreter/Scanner/n223_s5/SUM</td>
+</tr>
+<tr>
+<td>4.579</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n223_s8/I0</td>
+</tr>
+<tr>
+<td>5.128</td>
+<td>0.549</td>
+<td>tINS</td>
+<td>FR</td>
+<td>1</td>
+<td>interpreter/Scanner/n223_s8/COUT</td>
+</tr>
+<tr>
+<td>5.128</td>
+<td>0.000</td>
+<td>tNET</td>
+<td>RR</td>
+<td>2</td>
+<td>interpreter/Scanner/n222_s8/CIN</td>
+</tr>
+<tr>
+<td>5.598</td>
+<td>0.470</td>
+<td>tINS</td>
+<td>RF</td>
+<td>1</td>
+<td>interpreter/Scanner/n222_s8/SUM</td>
+</tr>
+<tr>
+<td>6.072</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n222_s10/I0</td>
+</tr>
+<tr>
+<td>6.621</td>
+<td>0.549</td>
+<td>tINS</td>
+<td>FR</td>
+<td>1</td>
+<td>interpreter/Scanner/n222_s10/COUT</td>
+</tr>
+<tr>
+<td>6.621</td>
+<td>0.000</td>
+<td>tNET</td>
+<td>RR</td>
+<td>2</td>
+<td>interpreter/Scanner/n221_s11/CIN</td>
+</tr>
+<tr>
+<td>7.091</td>
+<td>0.470</td>
+<td>tINS</td>
+<td>RF</td>
+<td>1</td>
+<td>interpreter/Scanner/n221_s11/SUM</td>
+</tr>
+<tr>
+<td>7.565</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>INBUF/n119_s1/I0</td>
-</tr>
-<tr>
-<td>2.606</td>
-<td>0.549</td>
-<td>tINS</td>
-<td>FR</td>
-<td>8</td>
-<td>INBUF/n119_s1/F</td>
-</tr>
-<tr>
-<td>2.966</td>
-<td>0.360</td>
-<td>tNET</td>
-<td>RR</td>
-<td>1</td>
-<td>INBUF/out_7_s0/CE</td>
+<td>interpreter/Scanner/Sum_3_s0/D</td>
 </tr>
 </table>
 <b>Data Required Path:</b>
@@ -405,7 +536,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>0.000</td>
 <td>tINS</td>
 <td>RR</td>
-<td>36</td>
+<td>88</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
@@ -414,7 +545,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>RR</td>
 <td>1</td>
-<td>INBUF/out_7_s0/CLK</td>
+<td>interpreter/Scanner/Sum_3_s0/CLK</td>
 </tr>
 <tr>
 <td>10.325</td>
@@ -422,7 +553,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tSu</td>
 <td> </td>
 <td>1</td>
-<td>INBUF/out_7_s0</td>
+<td>interpreter/Scanner/Sum_3_s0</td>
 </tr>
 </table>
 <b>Path Statistics:</b>
@@ -437,12 +568,12 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">Logic Level:</td>
-<td>3</td>
+<td>9</td>
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 <tr>
-<td class="label">Arrival Data Path Delay:</td><td> cell: 1.066, 40.906%; route: 1.308, 50.191%; tC2Q: 0.232, 8.903%</td></tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 4.129, 57.307%; route: 2.844, 39.473%; tC2Q: 0.232, 3.220%</td></tr>
 <tr>
 <td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 </table>
@@ -452,11 +583,11 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <table class="summary_table">
 <tr>
 <td class="label">Slack</td>
-<td>7.359</td>
+<td>3.262</td>
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>2.966</td>
+<td>7.063</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
@@ -464,11 +595,11 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">From</td>
-<td>INBUF/store_d_s0</td>
+<td>interpreter/Scanner/Data_1_s0</td>
 </tr>
 <tr>
 <td class="label">To</td>
-<td>INBUF/out_6_s0</td>
+<td>interpreter/Scanner/Sum_2_s0</td>
 </tr>
 <tr>
 <td class="label">Launch Clk</td>
@@ -510,7 +641,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>0.000</td>
 <td>tINS</td>
 <td>RR</td>
-<td>36</td>
+<td>88</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
@@ -519,15 +650,15 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>RR</td>
 <td>1</td>
-<td>INBUF/store_d_s0/CLK</td>
+<td>interpreter/Scanner/Data_1_s0/CLK</td>
 </tr>
 <tr>
 <td>0.592</td>
 <td>0.232</td>
 <td>tC2Q</td>
 <td>RF</td>
-<td>4</td>
-<td>INBUF/store_d_s0/Q</td>
+<td>6</td>
+<td>interpreter/Scanner/Data_1_s0/Q</td>
 </tr>
 <tr>
 <td>1.066</td>
@@ -535,39 +666,119 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>INBUF/store_edge_s1/I0</td>
+<td>interpreter/Scanner/n152_s5/I1</td>
 </tr>
 <tr>
-<td>1.583</td>
+<td>1.621</td>
+<td>0.555</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n152_s5/F</td>
+</tr>
+<tr>
+<td>2.095</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s56/I0</td>
+</tr>
+<tr>
+<td>2.612</td>
 <td>0.517</td>
 <td>tINS</td>
 <td>FF</td>
-<td>9</td>
-<td>INBUF/store_edge_s1/F</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s56/SUM</td>
 </tr>
 <tr>
-<td>2.057</td>
+<td>3.086</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s16/I0</td>
+</tr>
+<tr>
+<td>3.603</td>
+<td>0.517</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s16/SUM</td>
+</tr>
+<tr>
+<td>4.077</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s19/I0</td>
+</tr>
+<tr>
+<td>4.626</td>
+<td>0.549</td>
+<td>tINS</td>
+<td>FR</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s19/COUT</td>
+</tr>
+<tr>
+<td>4.626</td>
+<td>0.000</td>
+<td>tNET</td>
+<td>RR</td>
+<td>2</td>
+<td>interpreter/Scanner/n223_s8/CIN</td>
+</tr>
+<tr>
+<td>5.096</td>
+<td>0.470</td>
+<td>tINS</td>
+<td>RF</td>
+<td>1</td>
+<td>interpreter/Scanner/n223_s8/SUM</td>
+</tr>
+<tr>
+<td>5.570</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n223_s10/I0</td>
+</tr>
+<tr>
+<td>6.119</td>
+<td>0.549</td>
+<td>tINS</td>
+<td>FR</td>
+<td>1</td>
+<td>interpreter/Scanner/n223_s10/COUT</td>
+</tr>
+<tr>
+<td>6.119</td>
+<td>0.000</td>
+<td>tNET</td>
+<td>RR</td>
+<td>2</td>
+<td>interpreter/Scanner/n222_s10/CIN</td>
+</tr>
+<tr>
+<td>6.589</td>
+<td>0.470</td>
+<td>tINS</td>
+<td>RF</td>
+<td>1</td>
+<td>interpreter/Scanner/n222_s10/SUM</td>
+</tr>
+<tr>
+<td>7.063</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>INBUF/n119_s1/I0</td>
-</tr>
-<tr>
-<td>2.606</td>
-<td>0.549</td>
-<td>tINS</td>
-<td>FR</td>
-<td>8</td>
-<td>INBUF/n119_s1/F</td>
-</tr>
-<tr>
-<td>2.966</td>
-<td>0.360</td>
-<td>tNET</td>
-<td>RR</td>
-<td>1</td>
-<td>INBUF/out_6_s0/CE</td>
+<td>interpreter/Scanner/Sum_2_s0/D</td>
 </tr>
 </table>
 <b>Data Required Path:</b>
@@ -601,7 +812,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>0.000</td>
 <td>tINS</td>
 <td>RR</td>
-<td>36</td>
+<td>88</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
@@ -610,7 +821,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>RR</td>
 <td>1</td>
-<td>INBUF/out_6_s0/CLK</td>
+<td>interpreter/Scanner/Sum_2_s0/CLK</td>
 </tr>
 <tr>
 <td>10.325</td>
@@ -618,7 +829,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tSu</td>
 <td> </td>
 <td>1</td>
-<td>INBUF/out_6_s0</td>
+<td>interpreter/Scanner/Sum_2_s0</td>
 </tr>
 </table>
 <b>Path Statistics:</b>
@@ -633,12 +844,12 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">Logic Level:</td>
-<td>3</td>
+<td>8</td>
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 <tr>
-<td class="label">Arrival Data Path Delay:</td><td> cell: 1.066, 40.906%; route: 1.308, 50.191%; tC2Q: 0.232, 8.903%</td></tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 3.627, 54.110%; route: 2.844, 42.429%; tC2Q: 0.232, 3.461%</td></tr>
 <tr>
 <td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 </table>
@@ -648,11 +859,11 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <table class="summary_table">
 <tr>
 <td class="label">Slack</td>
-<td>7.359</td>
+<td>3.764</td>
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>2.966</td>
+<td>6.561</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
@@ -660,11 +871,11 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">From</td>
-<td>INBUF/store_d_s0</td>
+<td>interpreter/Scanner/Data_1_s0</td>
 </tr>
 <tr>
 <td class="label">To</td>
-<td>INBUF/out_5_s0</td>
+<td>interpreter/Scanner/Sum_1_s0</td>
 </tr>
 <tr>
 <td class="label">Launch Clk</td>
@@ -706,7 +917,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>0.000</td>
 <td>tINS</td>
 <td>RR</td>
-<td>36</td>
+<td>88</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
@@ -715,15 +926,15 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>RR</td>
 <td>1</td>
-<td>INBUF/store_d_s0/CLK</td>
+<td>interpreter/Scanner/Data_1_s0/CLK</td>
 </tr>
 <tr>
 <td>0.592</td>
 <td>0.232</td>
 <td>tC2Q</td>
 <td>RF</td>
-<td>4</td>
-<td>INBUF/store_d_s0/Q</td>
+<td>6</td>
+<td>interpreter/Scanner/Data_1_s0/Q</td>
 </tr>
 <tr>
 <td>1.066</td>
@@ -731,39 +942,103 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>INBUF/store_edge_s1/I0</td>
+<td>interpreter/Scanner/n152_s5/I1</td>
 </tr>
 <tr>
-<td>1.583</td>
+<td>1.621</td>
+<td>0.555</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n152_s5/F</td>
+</tr>
+<tr>
+<td>2.095</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s56/I0</td>
+</tr>
+<tr>
+<td>2.612</td>
 <td>0.517</td>
 <td>tINS</td>
 <td>FF</td>
-<td>9</td>
-<td>INBUF/store_edge_s1/F</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s56/SUM</td>
 </tr>
 <tr>
-<td>2.057</td>
+<td>3.086</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s16/I0</td>
+</tr>
+<tr>
+<td>3.603</td>
+<td>0.517</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s16/SUM</td>
+</tr>
+<tr>
+<td>4.077</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s19/I0</td>
+</tr>
+<tr>
+<td>4.594</td>
+<td>0.517</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s19/SUM</td>
+</tr>
+<tr>
+<td>5.068</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s22/I0</td>
+</tr>
+<tr>
+<td>5.617</td>
+<td>0.549</td>
+<td>tINS</td>
+<td>FR</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s22/COUT</td>
+</tr>
+<tr>
+<td>5.617</td>
+<td>0.000</td>
+<td>tNET</td>
+<td>RR</td>
+<td>2</td>
+<td>interpreter/Scanner/n223_s10/CIN</td>
+</tr>
+<tr>
+<td>6.087</td>
+<td>0.470</td>
+<td>tINS</td>
+<td>RF</td>
+<td>1</td>
+<td>interpreter/Scanner/n223_s10/SUM</td>
+</tr>
+<tr>
+<td>6.561</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>INBUF/n119_s1/I0</td>
-</tr>
-<tr>
-<td>2.606</td>
-<td>0.549</td>
-<td>tINS</td>
-<td>FR</td>
-<td>8</td>
-<td>INBUF/n119_s1/F</td>
-</tr>
-<tr>
-<td>2.966</td>
-<td>0.360</td>
-<td>tNET</td>
-<td>RR</td>
-<td>1</td>
-<td>INBUF/out_5_s0/CE</td>
+<td>interpreter/Scanner/Sum_1_s0/D</td>
 </tr>
 </table>
 <b>Data Required Path:</b>
@@ -797,7 +1072,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>0.000</td>
 <td>tINS</td>
 <td>RR</td>
-<td>36</td>
+<td>88</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
@@ -806,7 +1081,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>RR</td>
 <td>1</td>
-<td>INBUF/out_5_s0/CLK</td>
+<td>interpreter/Scanner/Sum_1_s0/CLK</td>
 </tr>
 <tr>
 <td>10.325</td>
@@ -814,7 +1089,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tSu</td>
 <td> </td>
 <td>1</td>
-<td>INBUF/out_5_s0</td>
+<td>interpreter/Scanner/Sum_1_s0</td>
 </tr>
 </table>
 <b>Path Statistics:</b>
@@ -829,12 +1104,12 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">Logic Level:</td>
-<td>3</td>
+<td>7</td>
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 <tr>
-<td class="label">Arrival Data Path Delay:</td><td> cell: 1.066, 40.906%; route: 1.308, 50.191%; tC2Q: 0.232, 8.903%</td></tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 3.125, 50.395%; route: 2.844, 45.864%; tC2Q: 0.232, 3.741%</td></tr>
 <tr>
 <td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 </table>
@@ -844,11 +1119,11 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <table class="summary_table">
 <tr>
 <td class="label">Slack</td>
-<td>7.359</td>
+<td>4.266</td>
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>2.966</td>
+<td>6.059</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
@@ -856,11 +1131,11 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">From</td>
-<td>INBUF/store_d_s0</td>
+<td>interpreter/Scanner/Data_1_s0</td>
 </tr>
 <tr>
 <td class="label">To</td>
-<td>INBUF/out_4_s0</td>
+<td>interpreter/Scanner/Sum_0_s0</td>
 </tr>
 <tr>
 <td class="label">Launch Clk</td>
@@ -902,7 +1177,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>0.000</td>
 <td>tINS</td>
 <td>RR</td>
-<td>36</td>
+<td>88</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
@@ -911,15 +1186,15 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>RR</td>
 <td>1</td>
-<td>INBUF/store_d_s0/CLK</td>
+<td>interpreter/Scanner/Data_1_s0/CLK</td>
 </tr>
 <tr>
 <td>0.592</td>
 <td>0.232</td>
 <td>tC2Q</td>
 <td>RF</td>
-<td>4</td>
-<td>INBUF/store_d_s0/Q</td>
+<td>6</td>
+<td>interpreter/Scanner/Data_1_s0/Q</td>
 </tr>
 <tr>
 <td>1.066</td>
@@ -927,39 +1202,87 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>INBUF/store_edge_s1/I0</td>
+<td>interpreter/Scanner/n152_s5/I1</td>
 </tr>
 <tr>
-<td>1.583</td>
+<td>1.621</td>
+<td>0.555</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n152_s5/F</td>
+</tr>
+<tr>
+<td>2.095</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s56/I0</td>
+</tr>
+<tr>
+<td>2.612</td>
 <td>0.517</td>
 <td>tINS</td>
 <td>FF</td>
-<td>9</td>
-<td>INBUF/store_edge_s1/F</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s56/SUM</td>
 </tr>
 <tr>
-<td>2.057</td>
+<td>3.086</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s16/I0</td>
+</tr>
+<tr>
+<td>3.603</td>
+<td>0.517</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s16/SUM</td>
+</tr>
+<tr>
+<td>4.077</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s19/I0</td>
+</tr>
+<tr>
+<td>4.594</td>
+<td>0.517</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s19/SUM</td>
+</tr>
+<tr>
+<td>5.068</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>2</td>
+<td>interpreter/Scanner/n224_s22/I0</td>
+</tr>
+<tr>
+<td>5.585</td>
+<td>0.517</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n224_s22/SUM</td>
+</tr>
+<tr>
+<td>6.059</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>INBUF/n119_s1/I0</td>
-</tr>
-<tr>
-<td>2.606</td>
-<td>0.549</td>
-<td>tINS</td>
-<td>FR</td>
-<td>8</td>
-<td>INBUF/n119_s1/F</td>
-</tr>
-<tr>
-<td>2.966</td>
-<td>0.360</td>
-<td>tNET</td>
-<td>RR</td>
-<td>1</td>
-<td>INBUF/out_4_s0/CE</td>
+<td>interpreter/Scanner/Sum_0_s0/D</td>
 </tr>
 </table>
 <b>Data Required Path:</b>
@@ -993,7 +1316,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>0.000</td>
 <td>tINS</td>
 <td>RR</td>
-<td>36</td>
+<td>88</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
@@ -1002,7 +1325,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>RR</td>
 <td>1</td>
-<td>INBUF/out_4_s0/CLK</td>
+<td>interpreter/Scanner/Sum_0_s0/CLK</td>
 </tr>
 <tr>
 <td>10.325</td>
@@ -1010,7 +1333,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tSu</td>
 <td> </td>
 <td>1</td>
-<td>INBUF/out_4_s0</td>
+<td>interpreter/Scanner/Sum_0_s0</td>
 </tr>
 </table>
 <b>Path Statistics:</b>
@@ -1025,12 +1348,12 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">Logic Level:</td>
-<td>3</td>
+<td>6</td>
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 <tr>
-<td class="label">Arrival Data Path Delay:</td><td> cell: 1.066, 40.906%; route: 1.308, 50.191%; tC2Q: 0.232, 8.903%</td></tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 2.623, 46.026%; route: 2.844, 49.903%; tC2Q: 0.232, 4.071%</td></tr>
 <tr>
 <td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 </table>
@@ -1040,11 +1363,11 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <table class="summary_table">
 <tr>
 <td class="label">Slack</td>
-<td>7.359</td>
+<td>6.172</td>
 </tr>
 <tr>
 <td class="label">Data Arrival Time</td>
-<td>2.966</td>
+<td>4.153</td>
 </tr>
 <tr>
 <td class="label">Data Required Time</td>
@@ -1052,11 +1375,11 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">From</td>
-<td>INBUF/store_d_s0</td>
+<td>interpreter/Scanner/Data_1_s0</td>
 </tr>
 <tr>
 <td class="label">To</td>
-<td>INBUF/out_3_s0</td>
+<td>interpreter/Scanner/RowColVector_2_s0</td>
 </tr>
 <tr>
 <td class="label">Launch Clk</td>
@@ -1098,7 +1421,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>0.000</td>
 <td>tINS</td>
 <td>RR</td>
-<td>36</td>
+<td>88</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
@@ -1107,15 +1430,15 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>RR</td>
 <td>1</td>
-<td>INBUF/store_d_s0/CLK</td>
+<td>interpreter/Scanner/Data_1_s0/CLK</td>
 </tr>
 <tr>
 <td>0.592</td>
 <td>0.232</td>
 <td>tC2Q</td>
 <td>RF</td>
-<td>4</td>
-<td>INBUF/store_d_s0/Q</td>
+<td>6</td>
+<td>interpreter/Scanner/Data_1_s0/Q</td>
 </tr>
 <tr>
 <td>1.066</td>
@@ -1123,39 +1446,55 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>INBUF/store_edge_s1/I0</td>
+<td>interpreter/Scanner/n492_s5/I1</td>
 </tr>
 <tr>
-<td>1.583</td>
-<td>0.517</td>
+<td>1.621</td>
+<td>0.555</td>
 <td>tINS</td>
 <td>FF</td>
-<td>9</td>
-<td>INBUF/store_edge_s1/F</td>
+<td>5</td>
+<td>interpreter/Scanner/n492_s5/F</td>
 </tr>
 <tr>
-<td>2.057</td>
+<td>2.095</td>
 <td>0.474</td>
 <td>tNET</td>
 <td>FF</td>
 <td>1</td>
-<td>INBUF/n119_s1/I0</td>
+<td>interpreter/Scanner/n494_s1/I1</td>
 </tr>
 <tr>
-<td>2.606</td>
-<td>0.549</td>
+<td>2.650</td>
+<td>0.555</td>
 <td>tINS</td>
-<td>FR</td>
-<td>8</td>
-<td>INBUF/n119_s1/F</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n494_s1/F</td>
 </tr>
 <tr>
-<td>2.966</td>
-<td>0.360</td>
+<td>3.124</td>
+<td>0.474</td>
 <td>tNET</td>
-<td>RR</td>
+<td>FF</td>
 <td>1</td>
-<td>INBUF/out_3_s0/CE</td>
+<td>interpreter/Scanner/n494_s0/I1</td>
+</tr>
+<tr>
+<td>3.679</td>
+<td>0.555</td>
+<td>tINS</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/n494_s0/F</td>
+</tr>
+<tr>
+<td>4.153</td>
+<td>0.474</td>
+<td>tNET</td>
+<td>FF</td>
+<td>1</td>
+<td>interpreter/Scanner/RowColVector_2_s0/D</td>
 </tr>
 </table>
 <b>Data Required Path:</b>
@@ -1189,7 +1528,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>0.000</td>
 <td>tINS</td>
 <td>RR</td>
-<td>36</td>
+<td>88</td>
 <td>clk_ibuf/O</td>
 </tr>
 <tr>
@@ -1198,7 +1537,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tNET</td>
 <td>RR</td>
 <td>1</td>
-<td>INBUF/out_3_s0/CLK</td>
+<td>interpreter/Scanner/RowColVector_2_s0/CLK</td>
 </tr>
 <tr>
 <td>10.325</td>
@@ -1206,7 +1545,7 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 <td>tSu</td>
 <td> </td>
 <td>1</td>
-<td>INBUF/out_3_s0</td>
+<td>interpreter/Scanner/RowColVector_2_s0</td>
 </tr>
 </table>
 <b>Path Statistics:</b>
@@ -1221,12 +1560,12 @@ C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPG
 </tr>
 <tr>
 <td class="label">Logic Level:</td>
-<td>3</td>
+<td>4</td>
 </tr>
 <tr>
 <td class="label">Arrival Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 <tr>
-<td class="label">Arrival Data Path Delay:</td><td> cell: 1.066, 40.906%; route: 1.308, 50.191%; tC2Q: 0.232, 8.903%</td></tr>
+<td class="label">Arrival Data Path Delay:</td><td> cell: 1.665, 43.897%; route: 1.896, 49.986%; tC2Q: 0.232, 6.117%</td></tr>
 <tr>
 <td class="label">Required Clock Path Delay:</td><td> cell: 0.000, 0.000%; route: 0.360, 100.000%</td></tr>
 </table>
