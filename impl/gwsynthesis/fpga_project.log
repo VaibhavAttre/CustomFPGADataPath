@@ -1,16 +1,16 @@
 GowinSynthesis start
 Running parser ...
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\LFSR.v'
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\input_buffer.v'
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\keypad_decode.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\keypad_interpreter.v'
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\keypad_reader.v'
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\memory_bank.v'
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\program_counter_reg.v'
+Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\pulse_counter.v'
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\rc_adc.v'
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\register_file.v'
 Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v'
-Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\LFSR.v'
-Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\pulse_counter.v'
-Analyzing Verilog file 'C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\keypad_interpreter.v'
 Compiling module 'top'("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v":1)
 Compiling module 'keypad_interpreter'("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\keypad_interpreter.v":1)
 Compiling module 'LFSR'("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\LFSR.v":1)
@@ -23,12 +23,10 @@ Compiling module 'input_buffer(WIDTH=3)'("C:\Gowin\Gowin_V1.9.11.01_Education_x6
 WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\input_buffer.v":36)
 Compiling module 'register_file'("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\register_file.v":1)
 Compiling module 'memory_bank'("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\memory_bank.v":1)
-Extracting RAM for identifier 'registers'("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\memory_bank.v":16)
-WARN  (EX1998) : Net 'data_ready' does not have a driver("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v":20)
+Extracting RAM for identifier 'registers'("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\memory_bank.v":17)
 NOTE  (EX0101) : Current top module is "top"
 WARN  (EX0211) : The output port "ledtest" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v":14)
 [5%] Running netlist conversion ...
-WARN  (CV0016) : Input store_addr_now is unused("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v":7)
 WARN  (CV0016) : Input display_addr_vs_data is unused("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v":10)
 Running device independent optimization ...
 [10%] Optimizing Phase 0 completed
@@ -45,8 +43,6 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
-WARN  (NL0002) : The module "input_buffer" instantiated to "ADDRBUF" is swept in optimizing("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v":87)
-WARN  (NL0002) : The module "memory_bank" instantiated to "MEMBANK" is swept in optimizing("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v":116)
 WARN  (NL0002) : The module "pulse_counter" instantiated to "Count" is swept in optimizing("C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\keypad_interpreter.v":19)
 [95%] Generate netlist file "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\impl\gwsynthesis\fpga_project.vg" completed
 [100%] Generate report file "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\impl\gwsynthesis\fpga_project_syn.rpt.html" completed
