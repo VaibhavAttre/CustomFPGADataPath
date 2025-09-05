@@ -6,6 +6,10 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/alu.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/input_buffer.v",
    "Type" : "verilog"
   },
@@ -43,6 +47,22 @@
   },
   {
    "Path" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/mar.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/mdr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/ir.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/microcode_engine.v",
    "Type" : "verilog"
   }
  ],

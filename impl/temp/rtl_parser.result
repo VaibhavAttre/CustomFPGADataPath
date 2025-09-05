@@ -1,10 +1,10 @@
 [
  {
   "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/program_counter_reg.v",
-  "InstLine" : 1,
+  "InstLine" : 2,
   "InstName" : "program_counter_reg",
   "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/program_counter_reg.v",
-  "ModuleLine" : 1,
+  "ModuleLine" : 2,
   "ModuleName" : "program_counter_reg"
  },
  {
@@ -25,7 +25,7 @@
   "SubInsts" : [
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
-    "InstLine" : 31,
+    "InstLine" : 33,
     "InstName" : "interpreter",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/keypad_interpreter.v",
     "ModuleLine" : 1,
@@ -67,15 +67,15 @@
    },
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
-    "InstLine" : 104,
-    "InstName" : "INBUF",
+    "InstLine" : 117,
+    "InstName" : "DATABUF",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/input_buffer.v",
     "ModuleLine" : 1,
     "ModuleName" : "input_buffer"
    },
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
-    "InstLine" : 117,
+    "InstLine" : 130,
     "InstName" : "ADDRBUF",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/input_buffer.v",
     "ModuleLine" : 1,
@@ -83,7 +83,15 @@
    },
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
-    "InstLine" : 131,
+    "InstLine" : 143,
+    "InstName" : "OPCODEBUF",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/input_buffer.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "input_buffer"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
+    "InstLine" : 157,
     "InstName" : "REGFILE",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/register_file.v",
     "ModuleLine" : 1,
@@ -91,12 +99,52 @@
    },
    {
     "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
-    "InstLine" : 147,
+    "InstLine" : 173,
     "InstName" : "MEMBANK",
     "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/memory_bank.v",
     "ModuleLine" : 1,
     "ModuleName" : "memory_bank"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/top.v",
+    "InstLine" : 188,
+    "InstName" : "ALU",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/alu.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "alu"
    }
   ]
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/mar.v",
+  "InstLine" : 1,
+  "InstName" : "mar",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/mar.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "mar"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/mdr.v",
+  "InstLine" : 1,
+  "InstName" : "mdr",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/mdr.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "mdr"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/ir.v",
+  "InstLine" : 1,
+  "InstName" : "ir",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/ir.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "ir"
+ },
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/microcode_engine.v",
+  "InstLine" : 1,
+  "InstName" : "microcode_engine",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.01_Education_x64/IDE/bin/Documents/fpga_project/CustomFPGADataPath/src/microcode_engine.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "microcode_engine"
  }
 ]

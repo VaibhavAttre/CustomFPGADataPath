@@ -5,6 +5,7 @@
     <Device id="GW2A-18C" package="PBGA256" speed="8" partNumber="GW2A-LV18PG256C8/I7"/>
     <FileList>
         <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\LFSR.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\alu.v" type="verilog"/>
         <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\input_buffer.v" type="verilog"/>
         <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\keypad_decode.v" type="verilog"/>
         <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\keypad_interpreter.v" type="verilog"/>
@@ -15,6 +16,10 @@
         <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\rc_adc.v" type="verilog"/>
         <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\register_file.v" type="verilog"/>
         <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\top.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\mar.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\mdr.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\ir.v" type="verilog"/>
+        <File path="C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\microcode_engine.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>

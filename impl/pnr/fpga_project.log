@@ -2,28 +2,44 @@ Reading netlist file: "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents
 Parsing netlist file "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\impl\gwsynthesis\fpga_project.vg" completed
 Processing netlist completed
 Reading constraint file: "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst"
-Physical Constraint parsed completed
-Running placement......
-[10%] Placement Phase 0 completed
-[20%] Placement Phase 1 completed
-[30%] Placement Phase 2 completed
-[50%] Placement Phase 3 completed
-Running routing......
-[60%] Routing Phase 0 completed
-[70%] Routing Phase 1 completed
-[80%] Routing Phase 2 completed
-[90%] Routing Phase 3 completed
-Running timing analysis......
-[95%] Timing analysis completed
-Placement and routing completed
-Bitstream generation in progress......
-Bitstream generation completed
-Running power analysis......
-[100%] Power analysis completed
-Generate file "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\impl\pnr\fpga_project.power.html" completed
-Generate file "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\impl\pnr\fpga_project.pin.html" completed
-Generate file "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\impl\pnr\fpga_project.rpt.html" completed
-Generate file "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\impl\pnr\fpga_project.rpt.txt" completed
-Generate file "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\impl\pnr\fpga_project.tr.html" completed
-Mon Aug  4 19:31:34 2025
-
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":10 | Can't find object named 'led[7]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":11 | Can't find object named 'led[7]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":12 | Can't find object named 'led[6]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":13 | Can't find object named 'led[6]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":14 | Can't find object named 'led[5]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":15 | Can't find object named 'led[5]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":16 | Can't find object named 'led[4]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":17 | Can't find object named 'led[4]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":18 | Can't find object named 'led[3]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":19 | Can't find object named 'led[3]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":20 | Can't find object named 'led[2]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":21 | Can't find object named 'led[2]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":22 | Can't find object named 'led[1]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":23 | Can't find object named 'led[1]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":24 | Can't find object named 'led[0]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":25 | Can't find object named 'led[0]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":26 | Can't find object named 'rows[3]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":27 | Can't find object named 'rows[3]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":28 | Can't find object named 'rows[2]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":29 | Can't find object named 'rows[2]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":30 | Can't find object named 'rows[1]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":31 | Can't find object named 'rows[1]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":32 | Can't find object named 'rows[0]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":33 | Can't find object named 'rows[0]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":34 | Can't find object named 'cols[3]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":35 | Can't find object named 'cols[3]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":36 | Can't find object named 'cols[2]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":37 | Can't find object named 'cols[2]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":38 | Can't find object named 'cols[1]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":39 | Can't find object named 'cols[1]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":40 | Can't find object named 'cols[0]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":41 | Can't find object named 'cols[0]'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":42 | Can't find object named 'store_now'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":43 | Can't find object named 'store_now'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":46 | Can't find object named 'store_addr_now'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":47 | Can't find object named 'store_addr_now'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":48 | Can't find object named 'choose_display'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":49 | Can't find object named 'choose_display'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":52 | Can't find object named 'opcode_vs_data'
+ERROR  (CT1135) : "C:\Gowin\Gowin_V1.9.11.01_Education_x64\IDE\bin\Documents\fpga_project\CustomFPGADataPath\src\fpga_project.cst":53 | Can't find object named 'opcode_vs_data'
+Physical Constraint parsed completed with errors

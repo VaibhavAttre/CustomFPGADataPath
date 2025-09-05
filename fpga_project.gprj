@@ -6,11 +6,16 @@
     <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
     <FileList>
         <File path="src/LFSR.v" type="file.verilog" enable="1"/>
+        <File path="src/alu.v" type="file.verilog" enable="1"/>
         <File path="src/input_buffer.v" type="file.verilog" enable="1"/>
+        <File path="src/ir.v" type="file.verilog" enable="1"/>
         <File path="src/keypad_decode.v" type="file.verilog" enable="1"/>
         <File path="src/keypad_interpreter.v" type="file.verilog" enable="1"/>
         <File path="src/keypad_reader.v" type="file.verilog" enable="1"/>
+        <File path="src/mar.v" type="file.verilog" enable="1"/>
+        <File path="src/mdr.v" type="file.verilog" enable="1"/>
         <File path="src/memory_bank.v" type="file.verilog" enable="1"/>
+        <File path="src/microcode_engine.v" type="file.verilog" enable="1"/>
         <File path="src/program_counter_reg.v" type="file.verilog" enable="1"/>
         <File path="src/pulse_counter.v" type="file.verilog" enable="1"/>
         <File path="src/rc_adc.v" type="file.verilog" enable="1"/>

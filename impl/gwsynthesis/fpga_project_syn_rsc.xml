@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="top" Register="10" Lut="37" T_Register="115(10)" T_Alu="19(0)" T_Lut="148(37)" T_Ssram="2(0)">
- <SubModule name="interpreter" T_Register="53(0)" T_Alu="19(0)" T_Lut="100(0)">
-  <SubModule name="LFSR" Register="16" Lut="7" T_Register="16(16)" T_Lut="7(7)"/>
-  <SubModule name="Scanner" Register="37" Alu="19" Lut="89" T_Register="37(37)" T_Alu="19(19)" T_Lut="89(89)"/>
-  <SubModule name="Decoder" Lut="4" T_Lut="4(4)"/>
- </SubModule>
- <SubModule name="INBUF" Register="20" Lut="7" T_Register="20(20)" T_Lut="7(7)"/>
- <SubModule name="ADDRBUF" Register="8" Lut="4" T_Register="8(8)" T_Lut="4(4)"/>
- <SubModule name="REGFILE" Register="16" T_Register="16(16)"/>
- <SubModule name="MEMBANK" Register="8" Ssram="2" T_Register="8(8)" T_Ssram="2(2)"/>
-</Module>
+<Module name="microcode_engine" Register="13" Lut="23" T_Register="13(13)" T_Lut="23(23)"/>
